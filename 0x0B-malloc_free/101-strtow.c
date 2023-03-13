@@ -38,8 +38,8 @@ char **strtow(char *str)
 	aout = malloc((height + 1) * sizeof(char *));
 	if (aout == NULL || height == 0)
 	{
-		free(aout);
-		return (NULL);
+	free(aout);
+	return (NULL);
 	}
 	for (i = a1 = 0; i < height; i++)
 	{
