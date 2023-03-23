@@ -1,11 +1,11 @@
 #include "variadic_functions.h"
 
 /**
- * sum_them_all - return the sum of all its paremeters
- * @n: the number of arguments to be added
- *
- * Return: sum or zero.
+ * sum_them_all - adds num
+ * @n: param
+ * Return: int
  */
+
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list valist;
