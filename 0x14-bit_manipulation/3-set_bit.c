@@ -1,11 +1,13 @@
 #include "main.h"
 
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
 
+/**
+  * getp - returns the value of x to the power of y
+  * @x: number
+  * @y: power
+  *
+  * Return: x to the power of y.
+  */
 int getp(int x, int y)
 {
 	if (y == 0)
