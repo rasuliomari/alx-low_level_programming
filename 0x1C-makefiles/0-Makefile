@@ -1,0 +1,3 @@
+# The rule compiles the main program called school
+all: main.c school.c
+	gcc main.c school.c -o school
