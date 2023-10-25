@@ -1,0 +1,11 @@
+# Variables
+
+CC = gcc
+SRC = main.c school.c
+OBJ = $(patsubst %.c,%.o, $(SRC))
+NAME = school
+
+# The rule compiles the main program called school in the rule all
+
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
